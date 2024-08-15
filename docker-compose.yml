@@ -1,12 +1,25 @@
 services:
   postgres:
     image: postgres:latest
+    container_name: disney-crochet-db
 
     environment:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
-    
+
     ports:
       - "5432:5432"
     
     restart: always
+  
+  flyway:
+    image: flyway/flyway:latest
+    container_name: disney-crochet-flyway
+
+    command: -url=jdbc:postgresql://postgres:5432/postgres -schemas=disney_crochet -user=postgres -password=postgres -connectRetries=60 migrate
+
+    volumes:
+      - ./sql:/flyway/sql
+
+    depends_on:
+      - postgres
