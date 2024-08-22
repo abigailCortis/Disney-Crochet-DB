@@ -2,7 +2,8 @@ INSERT INTO throw (issue, square_name, colours, difficulty) VALUES
 (6, 'Mickey and Minnie Yellow Flower', ARRAY['Vanilla', 'Sunflower'], 1),
 (7, 'Winnie the Pooh Square', ARRAY['Bright Red', 'White', 'Sunflower', 'Black'], 1),
 (8, 'Frozen Granny Square', ARRAY['Sky Blue', 'Cyan', 'Peacock Blue'], 1),
-(9, 'Jungle Book Golden Flower Square', ARRAY['Sunflower'], 1)
+(9, 'Jungle Book Golden Flower Square', ARRAY['Sunflower'], 1),
+(10, 'Aladdin Zigzag Flower Square', ARRAY['Sunflower', 'Vanilla', 'Hibiscus', 'Fuchsia', 'White'], 1)
 ;
 
 INSERT INTO small_projects (issue, project_name, difficulty) VALUES
@@ -17,7 +18,10 @@ INSERT INTO small_projects (issue, project_name, difficulty) VALUES
 (8, 'Mickey Pouffe', 2),
 (9, 'Luca Friendship Bracelets', 2),
 (9, 'Cruella Fingerless Gloves', 3),
-(9, 'Brave Throw', 5)
+(9, 'Brave Throw', 5),
+(10, 'Jungle Book Succulents', 1),
+(10, 'Elsa Crown', 3),
+(10, 'Moana Rainbow Cushion', 2)
 ;
 
 INSERT INTO skills (issue, skill) VALUES
@@ -31,5 +35,7 @@ INSERT INTO skills (issue, skill) VALUES
 (8, 'Alternate Stitch'),
 (8, 'Basic Spiral'),
 (9, 'Cable Stitch'),
-(9, 'Working aroung the Post')
+(9, 'Working aroung the Post'),
+(10, 'V Stitch'),
+(10, 'Double Chain Foundation Chain')
 ;
