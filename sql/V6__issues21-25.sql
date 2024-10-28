@@ -1,7 +1,8 @@
 INSERT INTO throw (issue, square_name, colours, difficulty) VALUES
 (21, 'Tangled Pink Heart Square', ARRAY['White', 'Vanilla', 'Lime', 'Candy Pink'], 2),
 (22, 'Finding Nemo Peach Character Square & Star Square', ARRAY['Candy Pink', 'Brick Red', 'Black', 'White'], 3),
-(23, 'Winnie the Pooh Balloon Square', ARRAY['Dark Teal', 'Sky Blue', 'White', 'Sunflower', 'Black'], 3)
+(23, 'Winnie the Pooh Balloon Square', ARRAY['Dark Teal', 'Sky Blue', 'White', 'Sunflower', 'Black'], 3),
+(24, 'Snow White Granny Square', ARRAY['Bright Red', 'Royal Blue', 'Coral', 'Vanilla', 'Sky Blue', 'White'], 1),
 ;
 
 INSERT INTO small_projects (issue, project_name, difficulty) VALUES
@@ -13,7 +14,10 @@ INSERT INTO small_projects (issue, project_name, difficulty) VALUES
 (22, 'Luca Gelato Bunting', 2)),
 (23, 'Daisy Duck''s Fortune Cookies', 1),
 (23, 'Frozen Baby Booties', 3),
-(23, 'Nemo Towel', 2)
+(23, 'Nemo Towel', 2),
+(24, 'Donald Duck Corner to Corner Towel', 1),
+(24, 'Elastigirl String Shopper', 3),
+(24, 'Tinker Bell Round Cushion', 2)
 ;
 
 INSERT INTO skills (issue, skill) VALUES
@@ -21,5 +25,7 @@ INSERT INTO skills (issue, skill) VALUES
 (22, 'French Knots'),
 (23, 'Cobble Stitch'),
 (23, 'Corner to Corner'),
-(23, 'Crochet Seams 1')
+(23, 'Crochet Seams 1'),
+(24, 'Chain Stitch'),
+(24 'Shaping 3')
 ;
