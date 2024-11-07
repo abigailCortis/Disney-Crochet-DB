@@ -2,7 +2,7 @@ INSERT INTO throw (issue, square_name, colours, difficulty) VALUES
 (26, 'Aladdin Portrait Square', ARRAY['Fudge', 'Cyan', 'Ice Blue', 'White', 'Black', 'Bright Red'], 2),
 (27, 'Cinderella Carriage Wheetl Square', ARRAY['Shell Pink', 'Petal', 'Coral', 'Lime', 'Aqua Green', 'White', 'Brick Red'], 2),
 (28, 'Coco Pink Paper Cut Square', ARRAY['Hot Pink', 'White'], 2),
-(29, 'Frozen Snowflake Granny Square', ARRAY['White', 'Ice Blue', 'Aqua', 'Aqua Green', 'Dark Teal'], 1)
+(29, 'Frozen Snowflake Granny Square', ARRAY['White', 'Ice Blue', 'Cyan', 'Aqua Green', 'Dark Teal'], 1)
 ;
 
 INSERT INTO small_projects (issue, project_name, difficulty) VALUES
