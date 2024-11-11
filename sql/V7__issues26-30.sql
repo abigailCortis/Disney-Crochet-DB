@@ -2,7 +2,8 @@ INSERT INTO throw (issue, square_name, colours, difficulty) VALUES
 (26, 'Aladdin Portrait Square', ARRAY['Fudge', 'Cyan', 'Ice Blue', 'White', 'Black', 'Bright Red'], 2),
 (27, 'Cinderella Carriage Wheetl Square', ARRAY['Shell Pink', 'Petal', 'Coral', 'Lime', 'Aqua Green', 'White', 'Brick Red'], 2),
 (28, 'Coco Pink Paper Cut Square', ARRAY['Hot Pink', 'White'], 2),
-(29, 'Frozen Snowflake Granny Square', ARRAY['White', 'Ice Blue', 'Cyan', 'Aqua Green', 'Dark Teal'], 1)
+(29, 'Frozen Snowflake Granny Square', ARRAY['White', 'Ice Blue', 'Cyan', 'Aqua Green', 'Dark Teal'], 1),
+(30, 'Donald & Daisy Pink Popcorn Square', ARRAY['Hibiscus', 'White'], 2)
 ;
 
 INSERT INTO small_projects (issue, project_name, difficulty) VALUES
@@ -17,7 +18,10 @@ INSERT INTO small_projects (issue, project_name, difficulty) VALUES
 (28, 'Mrs Potts Tea Cosy', 4),
 (29, 'Ariel Shell Earrings', 1),
 (29, 'Cinderella Backpack', 3),
-(29, 'Winnie the Pooh Honey Pot Storage Baskets', 2)
+(29, 'Winnie the Pooh Honey Pot Storage Baskets', 2),
+(30, 'Tiana Cloche', 1),
+(30, 'Wreck-It Ralph Candy Necklace', 3),
+(30, 'Big Hero 6 Baymax Hot Water Bottle Cover', 3)
 ;
 
 INSERT INTO skills (issue, skill) VALUES
@@ -30,5 +34,8 @@ INSERT INTO skills (issue, skill) VALUES
 (28, 'Colourwork 2'),
 (29, 'Lazy Daisy Stitch'),
 (29, 'Micro Crochet'),
-(29, 'Button Loops 1')
+(29, 'Button Loops 1'),
+(30, 'Herringbone Treble Crochet'),
+(30, 'Long Wave Stitch'),
+(30, 'Button Loops 2')
 ;
