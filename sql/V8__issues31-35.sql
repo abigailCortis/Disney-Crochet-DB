@@ -2,7 +2,8 @@ INSERT INTO throw (issue, square_name, colours, difficulty) VALUES
 (31, 'Daisy Duck Portrait Square', ARRAY['Sky Blue', 'Sunflower', 'Royal Blue', 'White', 'Black', 'Hibiscus'], 2),
 (31, 'Winnie the Pooh Honey Square', ARRAY['Sunflower', 'White'], 1),
 (32, 'Spice Flower', ARRAY['Paprika', 'White', 'Sunflower', 'Fuchsia', 'Lime'], 3),
-(33, 'Jung;e Book Jungle Bouquet Square', ARRAY['Vanilla', 'Sage', 'White', 'Paprika', 'Coral', 'Sunflower'], 2)
+(33, 'Jungle Book Jungle Bouquet Square', ARRAY['Vanilla', 'Sage', 'White', 'Paprika', 'Coral', 'Sunflower'], 2),
+(34, 'Mickey & Minnie Popcorn Daisy Square', ARRAY['Sunflower', 'White', 'Periwinkle'], 3)
 ;
 
 INSERT INTO small_projects (issue, project_name, difficulty) VALUES
@@ -14,7 +15,10 @@ INSERT INTO small_projects (issue, project_name, difficulty) VALUES
 (32, 'Pocahontas Harvest Baskets', 3),
 (33, 'Turning Red Wrist Warmers', 1),
 (33, 'Luca Giulia Beany', 2),
-(33, 'Moana Baby Blanket', 3)
+(33, 'Moana Baby Blanket', 3),
+(34, 'Peter Pan Slipper Socks', 2),
+(34, 'Cinderella Colour Change Shawl', 4),
+(34, 'Pocahontas Cushion', 3),
 ;
 
 INSERT INTO skills (issue, skill) VALUES
@@ -25,5 +29,7 @@ INSERT INTO skills (issue, skill) VALUES
 (33, 'Blanket Stitch on Crochet'),
 (33, 'Backstitch on Crochet'),
 (33, 'Satin Stitch on Crochet'),
-(33, 'Buttonholes 2')
+(33, 'Buttonholes 2'),
+(34, 'Treble 4 to 7 Together'),
+(34, 'Fringes')
 ;
