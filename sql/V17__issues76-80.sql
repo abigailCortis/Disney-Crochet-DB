@@ -1,7 +1,9 @@
 INSERT INTO throw (issue, square_name, colours, difficulty) VALUES
 (76, 'Donald & Daisy Blue Lace Square', ARRAY['Sky Blue', 'White'], 2),
 (77, 'Cinderella Pumpkin Patch Square', ARRAY['Vanilla', 'Coral', 'Paprika', 'Sea Green', 'Sage', 'White'], 2),
-(78, 'Belle Portrait Square', ARRAY['Shell Pink', 'Sunflower', 'Sky Blue', 'White', 'Toasted Brown', 'Black', 'Vanilla'], 3)
+(78, 'Belle Portrait Square', ARRAY['Shell Pink', 'Sunflower', 'Sky Blue', 'White', 'Toasted Brown', 'Black', 'Vanilla'], 3),
+(79, 'Aladdin Granny Square', ARRAY['Vanilla', 'Paprika', 'Candy Pink', 'Hot Pink', 'Ice Blue', 'Cyan', 'Periwinkle', 'White'], 1),
+(79, 'Donald & Daisy Granny Square', ARRAY['Sunflower', 'Sky Blue', 'Royal Blue', 'Vanilla', 'White'], 1)
 ;
 
 INSERT INTO small_projects (issue, project_name, difficulty) VALUES
@@ -13,7 +15,10 @@ INSERT INTO small_projects (issue, project_name, difficulty) VALUES
 (77, 'The Emperor''s New Groove Napkin Rings', 2),
 (78, 'Up Balloon Cake Toppers', 1),
 (78, 'The Little Mermaid Net Shopper', 2),
-(78, 'Mickey & Minnie Mug Cosies', 2)
+(78, 'Mickey & Minnie Mug Cosies', 2), 
+(79, 'Olaf Toothbrush Case', 1),
+(79, 'Miss Bianca-inspired Bag', 2),
+(79, 'Luca Gelato Ball and Cone Game', 2)
 ;
 
 INSERT INTO skills (issue, skill) VALUES
@@ -21,5 +26,6 @@ INSERT INTO skills (issue, skill) VALUES
 (77, 'Open Scallops Stitch'),
 (77, 'Following a Pattern 2'),
 (78, 'Two-Colour Shell Stitch'),
-(78, 'Making Pockets 1')
+(78, 'Making Pockets 1'),
+(79, 'Making Pockets 2')
 ;
