@@ -2,7 +2,8 @@ INSERT INTO throw (issue, square_name, colours, difficulty) VALUES
 (41, 'Aladdin Magic Flower Square', ARRAY['Vanilla', 'Coral', 'Hot Pink', 'Periwinkle', 'Aqua Green', 'White'], 2),
 (42, 'Cinderella Pumpkin Square', ARRAY['Sky Blue', 'White', 'Paprika', 'Sage', 'Sea Green'], 2),
 (43, 'Aladdin Pastel Flower Square', ARRAY['Hibiscus', 'White'], 1),
-(44, 'Finding Nemo Sheldon Character Square & Coral Wheel Square', ARRAY['Brick Red', 'Vanilla', 'Coral', 'Black', 'White', 'Coral', 'White'], 3)
+(44, 'Finding Nemo Sheldon Character Square & Coral Wheel Square', ARRAY['Brick Red', 'Vanilla', 'Coral', 'Black', 'White', 'Coral', 'White'], 3),
+(45, 'Cinderella Granny Square', ARRAY['Vanilla', 'Paprika', 'Brick Red', 'Aqua Green', 'White'], 1)
 ;
 
 INSERT INTO small_projects (issue, project_name, difficulty) VALUES
@@ -17,7 +18,10 @@ INSERT INTO small_projects (issue, project_name, difficulty) VALUES
 (43, 'Mike Doorstop', 3),
 (44, 'The Aristocats Gift Bows', 1),
 (44, 'Coco-inspired Purse', 2),
-(44, 'Tiana Pouffe', 4)
+(44, 'Tiana Pouffe', 4),
+(45, 'Beauty & the Beast Clothes Hangers', 2),
+(45, 'Inside Out Stacking Rings', 2),
+(45, 'Dusty Crophopper Passport Holder', 3)
 ;
 
 INSERT INTO skills (issue, skill) VALUES
@@ -30,5 +34,7 @@ INSERT INTO skills (issue, skill) VALUES
 (43, 'Bar and Lattice Stitch'),
 (43, 'Shaping 4'),
 (44, 'Diagonal Net Ground'),
-(44, 'Chevron Patterns 1')
+(44, 'Chevron Patterns 1'),
+(45, 'Lined Arch Stitch'),
+(45, 'Working into a Chain Space')
 ;
