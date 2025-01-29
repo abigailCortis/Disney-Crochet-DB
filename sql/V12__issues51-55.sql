@@ -2,7 +2,8 @@ INSERT INTO throw (issue, square_name, colours, difficulty) VALUES
 (51, 'Donald & Daisy Posy Square', ARRAY['Sunflower', 'Sky Blue', 'White', 'Sage', 'Candy Pink', 'Bright Red', 'Royal Blue'], 3),
 (52, 'Cinderella Pumpkin Leaves Square', ARRAY['Sea Green', 'Sage', 'White'], 1),
 (53, 'Jungle Book Jungle Flower Square', ARRAY['Coral', 'Vanilla', 'Sunflower', 'Lime', 'Sea Green', 'Sage', 'White'], 3),
-(54, 'Coco Festival Flower Square', ARRAY['Vanilla', 'Paprika', 'White', 'Hot Pink', 'Fuchsia', 'Black'], 2)
+(54, 'Coco Festival Flower Square', ARRAY['Vanilla', 'Paprika', 'White', 'Hot Pink', 'Fuchsia', 'Black'], 2),
+(55, 'Snow White Polka Dot Square', ARRAY['Royal Blue', 'Bright Red', 'White'], 2)
 ;
 
 INSERT INTO small_projects (issue, project_name, difficulty) VALUES
@@ -17,7 +18,12 @@ INSERT INTO small_projects (issue, project_name, difficulty) VALUES
 (53, 'Snow White Dust Buster Mitt', 3),
 (54, 'Aladdin Festival Patches', 1),
 (54, 'Daisy Duck Daisy Shawl', 3),
-(54, 'Edna Mode Silhoutte Cushion', 2)
+(54, 'Edna Mode Silhoutte Cushion', 2),
+(55, 'Encanto Chain Garland', 1),
+(55, 'The Little Mermaid Tail Bag', 3),
+(55, 'Mickey & Minnie Boot Cuffs', 2),
+(55, 'Frozen Doily', 2),
+(55, 'Pocahontas Harvest Baskets 3')
 ;
 
 INSERT INTO skills (issue, skill) VALUES
@@ -31,5 +37,8 @@ INSERT INTO skills (issue, skill) VALUES
 (53, 'Scallop Stitch'),
 (53, 'Filet Crochet 2'),
 (53, 'Filet Crochet 3'),
-(54, 'Ridged Chevron Stitch')
+(54, 'Ridged Chevron Stitch'),
+(55, 'Alternating Crossed Trebles'),
+(55, 'Filet Crochet 4'),
+(55, 'Filet Crochet 5')
 ;
