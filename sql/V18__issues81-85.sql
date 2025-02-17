@@ -2,7 +2,8 @@ INSERT INTO throw (issue, square_name, colours, difficulty) VALUES
 (81, 'Coco Coral Paper Cut Square', ARRAY['Coral', 'White'], 2),
 (81, 'The Jungle Book Lime Flower Square', ARRAY['Lime', 'White'], 2),
 (82, 'Donald & Daisy A Daisy for Daisy Square', ARRAY['Sunflower', 'White', 'Royal Blue', 'Hibiscus'], 2),
-(82, 'Joining The Donald & Daisy Block', ARRAY['White', 'Periwinkle'], 1)
+(82, 'Joining The Donald & Daisy Block', ARRAY['White', 'Periwinkle'], 1),
+(83, 'Snow White Portrait Square', ARRAY['Shell Pink', 'Sky Blue', 'Vanilla', 'White', 'Black', 'Bright Red'], 3)
 ;
 
 INSERT INTO small_projects (issue, project_name, difficulty) VALUES
@@ -11,10 +12,16 @@ INSERT INTO small_projects (issue, project_name, difficulty) VALUES
 (81, 'Cruella''s Fluffy Bag', 2),
 (82, 'Princess Friendship Bracelets', 1),
 (82, 'Mad Hatter''s Hat', 2),
-(82, 'Mulan Bunting', 2)
+(82, 'Mulan Bunting', 2),
+(83, 'Tinker Bell Fairy Dust Baby Blanket', 1),
+(83, 'Raya and the Last Dragon Sisu Necklace', 2),
+(83, 'Cinderella Egg Collection Apron', 2)
 ;
 
 INSERT INTO skills (issue, skill) VALUES
 (82, 'Making Pockets 4'),
-(82, 'Making Pockets 5')
+(82, 'Making Pockets 5'),
+(83, 'Rounded Cross Motif'),
+(83, 'Four-Patch Granny Square'),
+(83, 'Inserting a Zip 1')
 ;
