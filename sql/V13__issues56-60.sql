@@ -3,7 +3,8 @@ INSERT INTO throw (issue, square_name, colours, difficulty) VALUES
 (57, 'Tangled Hibiscus Petals Square', ARRAY['Hibiscus', 'Fuschia', 'White'], 1),
 (57, 'Tangled Candy Petals Square', ARRAY['Candy Pink', 'Hibiscus', 'White'], 1),
 (58, 'Seaweed Square', ARRAY['Lime', 'White'], 1),
-(59, 'Jasmine Portrait Square', ARRAY['Fudge', 'Brick Red', 'Paprika', 'White', 'Black', 'Ice Blue', 'Cyan', 'Sunflower'], 3)
+(59, 'Jasmine Portrait Square', ARRAY['Fudge', 'Brick Red', 'Paprika', 'White', 'Black', 'Ice Blue', 'Cyan', 'Sunflower'], 3),
+(60, 'Winnie the Pooh Favourite Red Flower Square', ARRAY['Vanilla', 'Sunflower', 'Paprika', 'Bright Red', 'White', 'Sea Green', 'Dark Teal'], 3)
 ;
 
 CREATE TYPE category_name AS ENUM('Home', 'Quick & Simple', 'Gift');
@@ -27,7 +28,10 @@ INSERT INTO small_projects (issue, project_name, difficulty, category, category_
 (58, 'Cars Chequered Flag Rug', 1, 'Home', 58),
 (59, 'Luca Watermelon Coasters', 1, 'Quick & Simple', 59),
 (59, 'Brave Tam-O''-Shanter', 3, 'Gift', 59),
-(59, 'Winnie the Pooh Honeypot Mug Cosy', 3, 'Home', 59)
+(59, 'Winnie the Pooh Honeypot Mug Cosy', 3, 'Home', 59),
+(60, 'Rapunzel Flower Bookmark', 1, 'Quick & Simple', 60),
+(60, 'Jasmine Mandala Mat', 4, 'Gift', 60),
+(60, 'Coco Fiesta Lampshade', 3, 'Home', 60)
 ;
 
 INSERT INTO skills (issue, skill) VALUES
@@ -41,5 +45,7 @@ INSERT INTO skills (issue, skill) VALUES
 (58, 'Chevron Patterns 2'),
 (59, 'Round Petal Flower Motif'),
 (59, 'Filet Crochet 7'),
-(59, 'Filet Crochet 8')
+(59, 'Filet Crochet 8'),
+(60, 'Balcony Stitch'),
+(60, 'Chevron Patterns 3')
 ;
