@@ -5,7 +5,9 @@ INSERT INTO throw (issue, square_name, colours, difficulty) VALUES
 (82, 'Joining The Donald & Daisy Block', ARRAY['White', 'Periwinkle'], 1),
 (83, 'Snow White Portrait Square', ARRAY['Shell Pink', 'Sky Blue', 'Vanilla', 'White', 'Black', 'Bright Red'], 3),
 (84, 'Coco Carnival Flower Square', ARRAY['Sunflower', 'White', 'Cyan', 'Hot Pink', 'Coral', 'Black'], 3),
-(84, 'Joining Your Coco Block', ARRAY['Periwinkle', 'White'], 1)
+(84, 'Joining Your Coco Block', ARRAY['Periwinkle', 'White'], 1),
+(85, 'Finding Nemo Pacific Blue Square', ARRAY['Ice Blue','White'], 1),
+(85, 'Finding Nemo Nemo Background Square', ARRAY['Aqua Green', 'Ice Blue', 'Cyan', 'White'], 1)
 ;
 
 INSERT INTO small_projects (issue, project_name, difficulty) VALUES
@@ -20,7 +22,10 @@ INSERT INTO small_projects (issue, project_name, difficulty) VALUES
 (83, 'Cinderella Egg Collection Apron', 2),
 (84, 'Encanto Warm Cowl', 1),
 (84, 'Lilo & Stitch Dressing-Up Costume', 2),
-(84, 'Mickey Mouse Fishing Game', 2)
+(84, 'Mickey Mouse Fishing Game', 2),
+(85, 'Bambi Thumper Bunny Ears', 2),
+(85, 'Zootropolis The Big Donut Cushion Duo', 2),
+(85, 'Belle Mug Cosy', 2)
 ;
 
 INSERT INTO skills (issue, skill) VALUES
@@ -29,5 +34,6 @@ INSERT INTO skills (issue, skill) VALUES
 (83, 'Rounded Cross Motif'),
 (83, 'Four-Patch Granny Square'),
 (83, 'Inserting a Zip 1'),
-(84, 'Inserting a Zip 2')
+(84, 'Inserting a Zip 2'),
+(85, 'Working in Layers 1')
 ;
